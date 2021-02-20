@@ -1,0 +1,31 @@
+.NavigationItem {
+   box-sizing: border-box;
+   display: block;
+   width: 100%;
+}
+.NavigationItem a {
+   color: #373F41;
+   text-decoration: none;
+   /* width: 100%; */
+   box-sizing: border-box;
+   display: block;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 18px;
+   transition: all .3s ease;
+   position: relative;
+   border-bottom: 2px solid #E5E5E5;
+   text-align: center;
+}
+.NavigationItem a::after{
+   position: absolute;
+   top: 100%;
+   content: "";
+   width: 100%;
+   left: 0;
+   border-bottom: 2px solid transparent;
+}
+.NavigationItem a:hover::after,
+.NavigationItem a:active::after {
+   border-bottom-color: #40a4c8;
+}

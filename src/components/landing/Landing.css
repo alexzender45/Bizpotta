@@ -1,0 +1,44 @@
+.Landing{
+   margin-top: 90px;
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+   row-gap: 25px;
+   padding-bottom: 80px;
+}
+.Landing h2{
+   font-size: 44px;
+   color: rgb(55, 63, 65, 1);
+   text-align: center;
+   width: 70%;
+}
+.Landing p{
+   font-size: 16px;
+   font-weight: 400;
+   width: 50%;
+   line-height: 22px;
+   text-align: center;
+   color: rgb(115, 123, 125, 1);
+}
+.Landing .btn{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   place-items: center;
+   column-gap: 15px;
+}
+.Landing .btn button{
+   Padding :8px 12px;
+   background-color: rgb(60, 100, 177, 1);
+   color: #fff;
+   border: none;
+   outline: none;
+   font-size: 14px;
+   line-height: 18px;
+   transition: all .2s ease;
+   cursor: pointer;
+}
+.Landing .btn button:hover{
+   border: 2px solid #40a4c8;
+   background: #fff;
+   color: #40a4c8;
+}
