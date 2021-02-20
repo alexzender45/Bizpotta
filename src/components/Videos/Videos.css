@@ -1,0 +1,56 @@
+.Detail p:nth-child(1){
+   font-size: 14px;
+   line-height: 18px;
+   font-weight: 800;
+   color: rgb(60, 100, 177, 1);
+}
+.Detail h2{
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 56px;
+   color: #373F41;
+   width: 70%;
+}
+.Detail p{
+   color: #737B7D;
+   font-weight: 400;
+   font-size: 16px;
+   width: 70%;
+   line-height: 22px;
+}
+.Videos article{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 30px;
+}
+.Videos{
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+   row-gap: 50px;
+   background-color: #fff;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-bottom: 80px;
+   padding-top: 50px;
+}
+.Videos .Details{
+   align-self: center;
+}
+.Videos button{
+   border: 2px solid #40a4c8;
+   background: #fff;
+   color: #40a4c8;
+   Padding :8px 12px;
+   outline: none;
+   font-size: 14px;
+   line-height: 18px;
+   transition: all .2s ease;
+   cursor: pointer;
+}
+.Videos button:hover{
+   background-color: rgb(60, 100, 177, 1);
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+}

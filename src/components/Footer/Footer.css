@@ -1,0 +1,71 @@
+.Footer{
+   background-color: rgb(243, 246, 250, 1);
+   padding-top: 30px;
+   padding-bottom: 30px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(302px, 1fr));
+   place-items: center;
+}
+.Inputs{
+   align-self: flex-start;
+}
+article .FooterLogo{
+   color: rgb(60, 100, 177, 1);
+   font-family: 'Lato' sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+}
+ul li{
+   list-style: none;
+}
+ul li a{
+   text-decoration: none;
+}
+.FooterDetail li{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #373F41;
+}
+.Socials{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   place-items: center;
+}
+article h5{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: #3C64B1;
+   text-align: center;
+}
+.Mydetail a{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #373F41;
+}
+.Input input{
+   background: rgb(161, 173, 176, 1);
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   padding: 8px 15px;
+   color: #373F41;
+}
+.Input input::placeholder{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #373F41;
+}
+.Socials:hover{
+   opacity: .7;
+}

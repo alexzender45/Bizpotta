@@ -1,0 +1,52 @@
+.About{
+   background: #fff;
+   display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;
+   row-gap: 35px;
+   padding-bottom: 80px;
+}
+.Why{
+   text-align: center;
+}
+.Why h3{
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 40px;
+   color: rgb(55, 63, 65, 1);
+}
+.Why p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #737B7D;
+}
+.icons{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.icons .icon{
+   align-self: end;
+}
+.icons article{
+   display: grid;
+   grid-template-columns: 1fr ;
+   place-items: center;
+   text-align: center;
+}
+.icons article p{
+   color: #373F41;
+   font-size: 14px;
+   line-height: 20px;
+   width: 82%;
+   text-align: center;
+   margin: 0 auto;
+}
+.icons article h6{
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.1px;
+   color: #373F41;
+}
